@@ -1,74 +1,84 @@
-body{
-    background-color:bisque
+body {
+  background: rgb(25,25,25);
+  background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(47,51,58,1) 79%, rgba(0,0,0,1) 100%);
 }
+
 /*
 =================================================
 MISC
 =================================================
 */
 .quick-links i {
-    font-size: 3em;
-  }
-  .to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    font-size: 40px;
-  }
-  .nav-link {
-    color: #453f39;
-  }
-  .nav-link:hover {
-    color:#d9aa6c;
-  }
-  .btn-unique {
-    background-color: aquamarine;
-    color: #000;
-  }
-  .btn-unique:hover {
-    background-color: #50a98a;
-    color: #fff;
-  }
+  font-size: 3em;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+}
+
+.nav-link {
+  color: #f5eb90; 
+}
+
+.nav-link:hover {
+  color: #B88746; 
+}
+
+.btn-unique {
+  background: linear-gradient(45deg, #B88746, #FDF5A6);
+  color: #191919;
+}
+
+.btn-unique:hover {
+  background: linear-gradient(45deg, #FDF5A6, #B88746); 
+  color: #fff;
+}
+
 /*
 =================================================
 NAVBAR
 =================================================
 */
 .navbar-brand {
-    font-weight: 900;
-    text-transform: uppercase;
-    color: aquamarine;
-  }
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FDF5A6; 
+}
+
+/*
+=================================================
+HERO SECTION
+=================================================
+*/
+.hero-section {
+  background-color: #191919);
   
-  /*
-  =================================================
-  HERO SECTION
-  =================================================
-  */
-  .hero-section {
-    background-color: aquamarine;
-    background-image: url("img/bg-image.png");
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .hero-section h1 {
-    color: #000;
-    font-size: 56px;
-    font-weight: 900;
-  }
-  
-  .hero-section .lead {
-    color: #fff;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
-    font-size: 22px;
-  }
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-section h1 {
+  color: #FCD868; 
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.hero-section .lead {
+  color: #ffffff; 
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+  font-size: 22px;
+}
+
 /*
 =================================================
 FOOTER
 =================================================
 */
 .footer h5 {
-    text-transform: uppercase;
-  }  
+  text-transform: uppercase;
+  color: #B88746; 
+}
