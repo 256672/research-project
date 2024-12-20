@@ -92,6 +92,39 @@ IMG
 }
 /*
 =================================================
-Carosel collums
+carosel
 =================================================
 */
+.carousel-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding:100px;
+}
+
+.text-container {
+  max-width: 50%;
+}
+
+.carousel img {
+  max-width: 40%;
+  object-fit: cover;
+  margin-right: 60px;
+  padding: 50px;
+}
+
+.carousel h2 {
+  color: #FDF5A6;
+  font-size: 1.8rem;
+}
+
+.carousel p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
