@@ -35,7 +35,7 @@
   </head>
   <body>
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="nav">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="nav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Research Project</a>
         <button
@@ -52,22 +52,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto me-s-auto mb-2 mb-md-0 text-end">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about">About</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#image">Image</a>
+              <a class="nav-link" href="#btc">BTC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#video">Video</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#map">Map</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#slides">Slides</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tabs">Tabs</a>
+              <a class="nav-link" href="#Tabs">Tabs</a>
             </li>
           </ul>
         </div>
@@ -81,12 +78,10 @@
           <div class="p-5 rounded">
             <h1>THE RISE OF BITCOIN</h1>
             <p class="lead">
-              This example is a quick exercise to illustrate how fixed to top
-              navbar works. As you scroll, it will remain fixed to the top of your
-              browser’s viewport.
+              Bitcoin, the world’s first decentralized digital currency, has revolutionized the way we think about money and transactions. From its mysterious origins in 2009 to becoming a global phenomenon, Bitcoin represents innovation, freedom, and the future of finance. Explore its rise, key milestones, and impact on the world in this brief overview.
             </p>
-            <a class="btn btn-lg btn-dark" href="#" role="button"
-              >View navbar docs &raquo;</a
+            <a class="btn btn-lg btn-dark" href="#Tabs" role="button"
+              >Learn More &raquo;</a
             >
           </div>
         </main>
@@ -94,7 +89,7 @@
       <!-- HERO SECTION END -->
 
       <!-- THREE COLUMNS -->
-    <div class="container text-center">
+    <div class="container text-center" id="btc">
       <div class="row">
           <div class="col-sm-3 px-5 my-3">
               <img src="img/arroeww.png" class="img-fluid mb-3 feature"> 
@@ -158,7 +153,7 @@
         </div>
         <!-- END THREE COLUMNS -->
         <!-- START CAROUSEL -->
-        <div class="row">
+        <div class="row" id="history">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -226,50 +221,35 @@
             </div>
         </div>
           <!-- VIDEO SECTION END -->
-         <!-- FOOTER START -->
-    <div class="bg-dark text-white py-5 footer">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-sm-3 pb-5">
-                <h5>Heading 1</h3>
-                <ul class="text-white-50">
-                    <li>Lorem ipsum dalor</li>
-                    <li>Site amet</li>
-                    <li>...</li>
-                    <li>...</li>
-                </ul>
-            </div>
-            <div class="col-sm-3 pb-5">
-                <h5>Heading 2</h3>
-                    <ul class="text-white-50">
-                        <li>Lorem ipsum dalor</li>
-                        <li>Site amet</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-            </div>
-            <div class="col-sm-3 pb-5">
-                <h5>Heading 3</h3>
-                    <ul class="text-white-50">
-                        <li>Lorem ipsum dalor</li>
-                        <li>Site amet</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-            </div>
-            <div class="col-sm-3 pb-5">
-                <h5>Heading 4</h3>
-                    <ul class="text-white-50">
-                        <li>Lorem ipsum dalor</li>
-                        <li>Site amet</li>
-                        <li>...</li>
-                        <li>...</li>
-                    </ul>
-            </div>
+<!-- FOOTER START -->
+<div class="bg-dark text-white py-5 footer" id="Tabs">
+  <div class="container py-5">
+      <div class="row">
+          <!-- Research Process Section -->
+          <div class="col-sm-3 pb-5">
+              <h5>Research Process</h5>
+              <ul class="text-white-50">
+                  <li>I primarily used Wikipedia as my initial resource to gather basic knowledge about Bitcoin. You can check the full article <a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank" class="text-white">here</a>.</li>
+                  <li>I also referenced this detailed article on US News about the history of Bitcoin: <a href="https://money.usnews.com/investing/articles/the-history-of-bitcoin" target="_blank" class="text-white">The History of Bitcoin</a>.</li>
+                  <li>Another essential source was Crypto.com, which outlines the creation of Bitcoin: <a href="https://crypto.com/bitcoin/why-was-bitcoin-created" target="_blank" class="text-white">Why Was Bitcoin Created?</a>.</li>
+                  <li>Further research was done by reading various articles from cryptocurrency blogs and investment websites to understand the impact of Bitcoin on global finance.</li>
+              </ul>
           </div>
-        </div>
+
+          <!-- Product of Learning Section -->
+          <div class="col-sm-3 pb-5">
+              <h5>Product of Learning</h5>
+              <ul class="text-white-50">
+                  <li>I combined two different Bootstrap components to create an interactive and visually engaging feature: I merged the carousel and slide elements to create a smooth, dynamic slideshow.</li>
+                  <li>I implemented a live Bitcoin widget using TradingView to display real-time Bitcoin data, such as the live stock ticker and price movements.</li>
+                  <li>Additionally, I explored how to embed a YouTube video, adding a Bitcoin 101 tutorial to give visitors a deeper understanding of the subject.</li>
+                  <li>This project also introduced me to web design best practices, such as using CSS for responsive layouts and optimizing user experience for both desktop and mobile users.</li>
+              </ul>
+          </div>
       </div>
-      <!-- FOOTER END -->
+  </div>
+</div>
+<!-- FOOTER END -->
   
       <!-- BACK TO TOP START -->
       <a href="#nav">
