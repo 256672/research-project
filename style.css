@@ -145,9 +145,9 @@ FOOTER
 }
 
 .product-learning-container iframe {
-  width: 89%;
+  width: 73%;
   max-width: 960px;
-  height: 244px;
+  height: 206px;
   border: none;
 }
 
@@ -196,28 +196,31 @@ carosel
 .carousel-content {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-start;
-  padding:100px;
+  justify-content: space-between;
+  padding: 0;
+  height: 400px;
 }
 
 .text-container {
   max-width: 50%;
+  padding: 20px;
 }
 
 .carousel img {
-  max-width: 40%;
+  max-width: 30%; 
+  height: auto;
   object-fit: cover;
-  margin-right: 60px;
-  padding: 50px;
+  padding: 0;
+  margin-right: 93px;
 }
 
 .carousel h2 {
   color: #FDF5A6;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .carousel p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #ffffff;
 }
