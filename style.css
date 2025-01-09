@@ -141,29 +141,21 @@ FOOTER
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px;
+}
+
+.product-learning-container iframe {
+  width: 89%;
+  max-width: 960px;
+  height: 244px;
+  border: none;
 }
 
 .product-learning-container h5 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  margin-right: 75px;
   color: #B88746;
-}
-
-.carousel-inner img {
-  max-height: 400px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.carousel {
-  max-width: 100%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(100%);
 }
 
 /* Ensure the footer stays consistent on smaller screens */
@@ -182,8 +174,8 @@ FOOTER
     max-width: 90%;
   }
 
-  .carousel-inner img {
-    max-height: 250px;
+  .product-learning-container iframe {
+    height: 250px;
   }
 }
 
